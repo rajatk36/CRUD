@@ -165,17 +165,7 @@ const AuthPage = ({ initialMode }: { initialMode: Mode }) => {
             {submitting ? 'Submitting…' : mode === 'login' ? 'Login' : 'Create account'}
           </button>
         </form>
-
-        <p className="text-xs text-center text-slate-400">
-          This is a demo app. Please avoid using a real password you use elsewhere.
-        </p>
-
-        <div className="flex justify-between text-xs text-slate-400">
-          <span>© {new Date().getFullYear()} Scalable Dashboard</span>
-          <Link to="/" className="hover:text-slate-600">
-            Back to home
-          </Link>
-        </div>
+        
       </div>
     </div>
   );
