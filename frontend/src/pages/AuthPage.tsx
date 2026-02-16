@@ -1,5 +1,6 @@
-import { FormEvent, useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import type {FormEvent} from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../state/AuthContext';
 
 type Mode = 'login' | 'register';
